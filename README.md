@@ -6,7 +6,7 @@
 #
 # Cara mendeploy Aplikasi
 Download file dari Paknux di repositorynya Paknux •> Ekstrak file yang sudah di download ke folder (data D) atau folder lain •> Masuk pada aplikasi VS Codex (untuk membuat terminal) •> Lalu klik file pada menu atas kiri •> Pilih open folder dan cari folder yang sudah terinstall •> Selanjutnya simpan per file menggunakan (ctrl+s) •> Berikutnya buat file baru ".env" klik enter •> Masuk ke Git Hub dan sign in Create a new repository lalu push •> Kembali lagi ke VS Code •> Klik new terminal •> Masukkan perintah dengan teliti, tuliskan 
- •$  git  --version
+- $  git  --version
 - $  git  config --global  user.name 
 - $  git  config --global  user.email 
 - $  git  init 
@@ -14,7 +14,9 @@ Download file dari Paknux di repositorynya Paknux •> Ekstrak file yang sudah d
 - $  git  branch  -M  main 
 - $  git  add  . 
 - $  git  commit  -m  "first commit" 
-- $  git  push  -u  origin  main •> Jika sudah silahkan login Aws Academy Canvas menggunakan akun masing-masing •> Pada dasboard klik Aws Academy Learner Lab •> Klik moduls •> Cari meluncurkan aws dan Klik •> Klik Start lab •>  Lalu pilih Aurora dan RDS •> Klik database (Jika sudah ada database tidak perlu membuat lagi) •> Selanjutnya ke EC2 •> Klik instances •> Buat baru dengan klik launch instances •> Isi name and tags sesuai yang diinginkan •> Pilih Ubuntu •> Biarkan t2.micro •> Keypair wajib  vockey •> Pada Network Setting ganti yang Firewall (Security Groups) Klik Select Existing Security Group •> Scroll lalu ubah pada Common Security Groups pilih SGServerWeb •> Scroll lagi klik Advanced Details •> Isi bagian user data-optional •> 
+- $  git  push  -u  origin  main 
+</br>
+•> Jika sudah silahkan login Aws Academy Canvas menggunakan akun masing-masing •> Pada dasboard klik Aws Academy Learner Lab •> Klik moduls •> Cari meluncurkan aws dan Klik •> Klik Start lab •>  Lalu pilih Aurora dan RDS •> Klik database (Jika sudah ada database tidak perlu membuat lagi) •> Selanjutnya ke EC2 •> Klik instances •> Buat baru dengan klik launch instances •> Isi name and tags sesuai yang diinginkan •> Pilih Ubuntu •> Biarkan t2.micro •> Keypair wajib  vockey •> Pada Network Setting ganti yang Firewall (Security Groups) Klik Select Existing Security Group •> Scroll lalu ubah pada Common Security Groups pilih SGServerWeb •> Scroll lagi klik Advanced Details •> Isi bagian user data-optional •> 
 </br>
 Masukkan perintah script
 ```
