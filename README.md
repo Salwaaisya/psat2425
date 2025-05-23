@@ -19,7 +19,7 @@ Download file dari Paknux di repositorynya Paknux •> Ekstrak file yang sudah d
 •> Jika sudah silahkan login Aws Academy Canvas menggunakan akun masing-masing •> Pada dasboard klik Aws Academy Learner Lab •> Klik moduls •> Cari meluncurkan aws dan Klik •> Klik Start lab •>  Lalu pilih Aurora dan RDS •> Klik database (Jika sudah ada database tidak perlu membuat lagi) •> Selanjutnya ke EC2 •> Klik instances •> Buat baru dengan klik launch instances •> Isi name and tags sesuai yang diinginkan •> Pilih Ubuntu •> Biarkan t2.micro •> Keypair wajib  vockey •> Pada Network Setting ganti yang Firewall (Security Groups) Klik Select Existing Security Group •> Scroll lalu ubah pada Common Security Groups pilih SGServerWeb •> Scroll lagi klik Advanced Details •> Isi bagian user data-optional •> 
 </br>
 Masukkan perintah script
-```
+<pre>
 #!/bin/bash
 echo '#!/bin/bash
 sudo apt update -y
@@ -37,5 +37,5 @@ sudo a2ensite default-ssl.conf
 sudo systemctl reload apache2' > /home/ubuntu/otomatis.sh
 
 chmod +x /home/ubuntu/otomatis.sh  
-```
+</pre>
 •> Pada perintah diatas gantilah kalimat yang ada didalam tanda kurung sesuai dengan milik masing-masing •> Lalu launch instance •> Jika sudah succes klik instances •> Klik instances id •> Klik connect •> Lalu Jalankan dengan $ ./otomatis.sh•> Lalu copy ip public dan buka di new tab •> Lalu isi bagian login dengan Username dan Password •> Jika sudah muncul halaman penilaian Sumatif Akhir Tahun isilah bagian Input data siswa sesuai dengan data diri masing-masing dan simpan.
